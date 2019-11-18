@@ -9,12 +9,6 @@
 		"needs_c++11": true
     },
     {
-        "name": "monotonic",
-        "sources": "calibre/utils/monotonic.c",
-        "linux_libraries": "rt",
-        "needs_py2": true
-    },
-    {
         "name": "unicode_names",
         "headers": "unicode_names/names.h unicode_names/data-types.h",
         "sources": "unicode_names/unicode_names.c",
@@ -25,15 +19,6 @@
         "sources": "calibre/utils/speedup.c",
         "libraries": "m",
         "windows_libraries": ""
-    },
-    {
-        "name": "zlib2",
-        "sources": "calibre/utils/zlib2.c",
-        "inc_dirs": "!zlib_inc_dirs",
-        "lib_dirs": "!zlib_lib_dirs",
-        "libraries": "z",
-        "windows_libraries": "zlib",
-        "needs_py2": true
     },
     {
         "name": "certgen",
